@@ -80,9 +80,9 @@ WSGI_APPLICATION = 'QMS.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'TDS_Project',
-        'USER': 'postgres',
-        'PASSWORD':'Sanket36',
+        'NAME': 'Your_project_name',
+        'USER': 'your_username',
+        'PASSWORD':'your_password',
         'HOST':'localhost',
         'PORT': '5432',
     }
